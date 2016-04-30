@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我的主页</title>
+<style>
+#headlist{margin:0 auto;height:45px;width:1000px;border:1px solid black;}
+#titlelogo{float:left;clear:left;height:43px;width:106px;border:none;}
+#titlegeren{height:43px;width:106px;border:none;background-color:#333;float:left;text-align:center;}
+#titlegeren a{text-decoration:none;display:block;padding:10px;}
+#titlelist{float:left;height:43px;width:424px;font-family:"Arial Black", Gadget, sans-serif;border:1px solid black;}
+#titlelist ul{list-style-type:none;margin:0px;padding:0px;}
+#titlelist li{float:left;height:43px;width:106px;}
+#titlelist li a{display:block;padding:10px;text-decoration:none;text-align:center;}
+#titlelist li a:link,#titlelist li a:visited{background-color:#000;color:#CCC;}
+#titlelist li a:hover{background-color:#999;color:#000;}
+#title{background-image:url(beijing.jpg);width:1200px;height:250px;margin:0 auto;border:1px solid black;}
+#name{height:auto;width:auto;border:none;margin:10px 0 0 100px;float:left;clear:left;text-align:left;padding-top:8px;padding-left:3px}
+#container_a{border:none;height:150px;width:1000px;margin:17px 0 0 100px;float:left;}
+#logo{height:100px;width:100px;margin-top:30px;float:left;clear:left;}
+#account{float:left;height:30px;width:130px;margin-top:70px;margin-left:15px;text-align:center;}
+#list_a{margin-top:110px;margin-left:140px;height:40px;width:700px;border:none;}
+#list_a ul{list-style-type:none;margin:0px;padding:0px}
+#list_a li{float:left;height:50px;width:70px;}
+#list_a li a{display:block;text-align:center;padding:10px;}
+#list_a li a:link,#list_a li a:visited{color:#CCC;text-decoration:none;}
+#list_a li a:hover{text-decoration:underline;}
+#container_b{margin:20px auto 0 auto;width:1000px;height:600px;border:1px solid black;}
+#left{border:1px solid black;float:left;clear:left;width:320px;height:auto;}
+#big_container{width:319px;height:auto;float:left;clear:left;background-color:#333;border:none;}
+#numbers{height:75px;width:303px;border:none;float:left;clear:left;background-color:#333;margin-left:8px;}
+#numbers ul{list-style-type:none;margin:0px;padding:0px}
+#numbers li{float:left;padding:10px 0;}
+#numbers li a{display:block;text-align:center;padding:0 10px;width:80px;height:55px;}
+#numbers li a:link,#numbers li a:visited{color:#999;text-decoration:none;background-color:#333;}
+#numbers li a:hover{text-decoration:underline;}
+.li1{border-right:1px solid black;}
+#gerendang{width:320px;margin-top:20px;border:none;background-color:#333;float:inherit;}
+#gerendang_1{background-color:#333;color:#CCC;text-indent:2px;width:320px;height:auto;padding-top:10px;}
+#gerendang_1 a{text-decoration:none;color:#CCC;}
+#gerendang_1 a:visited,#gerendang_1 a:link{text-decoration:none;color:#CCC;}
+#gerendang_1 a:hover{color:#CCC;text-decoration:underline;}
+#gerendang_2{background-color:#333;color:#999;text-indent:6px;width:320px;height:auto;padding:3px 0;}
+#fangke{width:320px;margin-top:20px;border:none;background-color:#333;float:inherit;}
+#fangkelist{width:320px;height:320px;border:none;background-color:#333;float:inherit;}
+#touxiang_1{height:100px;width:100px;background-image:url(touxiang1.jpg);border:none;margin:1px 1px 1px 1px;padding:0;}
+#touxiang_2{height:100px;width:100px;background-image:url(touxiang2.jpg);border:none;margin:1px 1px 1px 1px;padding:0;}
+#touxiang_3{height:100px;width:100px;background-image:url(touxiang3.jpg);border:none;margin:1px 1px 1px 1px;padding:0;}
+#touxiang_4{height:100px;width:100px;background-image:url(touxiang4.jpg);border:none;margin:1px 1px 1px 1px;padding:0;}
+#touxiang_5{height:100px;width:100px;background-image:url(touxiang5.jpg);border:none;margin:1px 1px 1px 1px;padding:0;}
+#touxiang_6{height:100px;width:100px;background-image:url(touxiang6.jpg);border:none;margin:1px 1px 1px 1px;padding:0;}
+#touxiang_7{height:100px;width:100px;background-image:url(touxiang7.jpg);border:none;margin:1px 1px 1px 1px;padding:0;}
+#touxiang_8{height:100px;width:100px;background-image:url(touxiang8.jpg);border:none;margin:1px 1px 1px 1px;padding:0;}
+#touxiang_9{height:100px;width:100px;background-image:url(touxiang9.jpg);border:none;margin:1px 1px 1px 1px;padding:0;}
+#yonghu{padding-top:80px;height:auto;width:auto;}
+#fangke_list table tr td a{text-decoration:none;color:#FFF;}
+#right{border:1px solid black;float:right;clear:right;width:670px;height:auto;}
+#xinxiangqiang{width:670px;height:30px;background-color:#333;text-align:center;padding-top:9px;}
+#xinxiangqiang a:link,#xinxiangqiang a:visited{text-decoration:none;color:#FFFFFF;}
+#xinxiangqiang a:hover{text-decoration:underline;}
+#shuoshuo{width:660px;height:auto;background-color:#333;margin-top:20px;float:inherit;border:1px solid black;padding-left:10px;}
+#shuoshuo_table{text-align:center;}
+#list_shuoshuo{height:auto;width:auto;}
+#list_shuoshuo ul{list-style-type:none;margin:0px;padding:0px;}
+#list_shuoshuo li{float:left;padding:0 20px;}
+#list_shuoshuo li a{display:block;text-decoration:none;padding:3px 10px;margin:3px;}
+#list_shuoshuo li a:link,#list_shuoshuo li a:visited{background-color:#333;color:#FFF;}
+#list_shuoshuo li a:hover{background-color:#999;color:#FFF;border:1px #000000 solid;}
+#tail{float:inherit;width:1000px;height:90px;margin:20px auto;border:1px solid black;}
+#list_tail{margin:0 auto;height:30px;width:890px;border:1px black solid;}
+#list_tail ul{list-style-type:none;margin:0px;padding:0px;}
+#list_tail li{float:left;padding:3px;}
+#list_tail li a{display:block;text-align:center;padding-right:5px;}
+#list_tail li a:link,#list_tail li a:visited{color:#999;text-decoration:none;}
+#list_tail li a:hover{text-decoration:underline;}
+.li2{border-right:1px solid #999;}
+#copyright_a{margin:0 auto;border:1px solid black;height:20px;width:340px;}
+#copyright_a a:visited,#copyright_a a:link{color:#999;text-decoration:none;}
+#copyright_a a:hover{color:#999;text-decoration:underline;}
+#copyright_b{margin:0 auto;border:1px solid black;height:20px;width:110px;}
+#copyright_b a:visited,#copyright_b a:link{color:#999;text-decoration:none;}
+#copyright_b a:hover{color:#999;text-decoration:underline;}
+</style>
+</head>
+
+<body bgcolor="#000000">
+
+
+<div id="headlist">
+	<div id="titlelogo">
+    	<img src="./titlelogo.jpg" />
+    </div>
+    <div id="titlegeren">
+    	<a href="#"><font color="#CCCCCC">个人中心</font></a>
+    </div>
+    <div id="titlelist">
+    	<ul>
+        	<li><a href="#">我的主页</a></li>
+            <li><a href="#">好友</a></li>
+            <li><a href="#">应用</a></li>
+            <li><a href="#">装扮</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div id="title">
+    <div id="name">
+        <b><font color="#FFFFFF" size="+3">Rise</font></b>
+        <br />
+        <font color="#FFFFFF" size="-1">http://924406215.qzone.qq.com</font>
+    </div>
+	<div id="container_a">
+    	<div id="logo">
+        	<img src="./logo.jpeg" />
+        </div>
+        <div id="account">
+        	<font color="#FFFFFF" size="+2">Nightwing</font>
+        </div>
+        <div id="list_a">
+        	<ul>
+            	<li><a href="#">主页</a></li>
+                <li><a href="#">日志</a></li>
+                <li><a href="#">相册</a></li>
+                <li><a href="#">留言板</a></li>
+                <li><a href="#">说说</a></li>
+                <li><a href="#">个人档</a></li>
+                <li><a href="#">音乐</a></li>
+                <li><a href="#">时光轴</a></li>
+                <li><a href="#">更多</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="container_b">
+	
+    <div id="left">
+		<div id="big_container">
+            <div id="numbers">
+                <ul>
+                    <li><a href="#" class="li1"><font size="+2">1012</font><br />照片</a></li>
+                    <li><a href="#" class="li1"><font size="+2">1273</font><br />说说</a></li>
+                    <li><a href="#"><font size="+2">95</font><br />日志</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="gerendang">
+        	<div id="gerendang_1">
+            	<a href="#"><b>个人档</b></a>
+            </div>
+            <hr align="center"/>
+            <div id="gerendang_2">
+            	<font size="-1">18岁&nbsp;天蝎座&nbsp;男&nbsp;北京市海淀区</font>
+            </div>
+            <div id="gerendang_2">
+            	<font size="-1">血型 B</font>
+            </div>
+        </div>
+        <div id="fangke">
+        	<div id="gerendang_1">
+            	<a href="#"><b>最近访客</b></a>
+            </div>
+            <div id="fangke_list">
+                <table>
+                	<tr>
+                    	<td><a href="#"><div id="touxiang_1"><div id="yonghu"><font size="-1">梁浩宇</font></div></div></a></td>
+                        <td><a href="#"><div id="touxiang_2"><div id="yonghu"><font size="-1">邓瑞泽</font></div></div></a></td>
+                        <td><a href="#"><div id="touxiang_3"><div id="yonghu"><font size="-1">钱俣皓</font></div></div></a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="#"><div id="touxiang_4"><div id="yonghu"><font size="-1">吴俊儒</font></div></div></a></td>
+                        <td><a href="#"><div id="touxiang_5"><div id="yonghu"><font size="-1">毛顺</font></div></div></a></td>
+                        <td><a href="#"><div id="touxiang_6"><div id="yonghu"><font size="-1">徐李阳</font></div></div></a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="#"><div id="touxiang_7"><div id="yonghu"><font size="-1">虞慕瑶</font></div></div></a></td>
+                        <td><a href="#"><div id="touxiang_8"><div id="yonghu"><font size="-1">褚力</font></div></div></a></td>
+                        <td><a href="#"><div id="touxiang_9"><div id="yonghu"><font size="-1">陈昊添</font></div></div></a></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="gerendang_1">
+            	<a href="#"><font size="-1">查看更多</font></a>
+            </div>
+        </div>
+	</div>
+    
+    <div id="right">
+    	<div id="xinxiangqiang">
+        	<a href="#">设置形象墙</a>
+        </div>
+        <div id="shuoshuo">
+        	<p><font color="#CCCCCC" >Nightwing</font></p>
+            <p><font color="#CCCCCC" size="-1">07:06  来自 GALAXY S5 浏览(80)</font></p>
+            <p><font color="#CCCCCC" >连续签到250多天的贴吧昨天忘签了。。。。。。</font></p>
+            <div id="shuoshuo_table">
+            	<table>
+                	<tr>
+                    	<td><img src="shuoshuo1.jpg" /></td>
+                        <td><img src="shuoshuo2.jpg" /></td>
+                        <td><img src="shuoshuo3.jpg" /></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="list_shuoshuo">
+            	<ul>
+                	<li><a href="#"><font size="-1">评论</font></a></li>
+                    <li><a href="#"><font size="-1">转发</font></a></li>
+                    <li><a href="#"><font size="-1">赞</font></a></li>
+                    <li><a href="#"><font size="-1">删除</font></a></li>
+                    <li><a href="#"><font size="-1">置顶</font></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="shuoshuo">
+        	<p><font color="#CCCCCC" >Nightwing</font></p>
+            <p><font color="#CCCCCC" size="-1">07:06  来自 GALAXY S5 浏览(120)</font></p>
+            <p><font color="#CCCCCC" >推荐一种简单而有效的作死方法：手洗衣服放一大堆洗衣液。。。。。。</font></p>
+            <div id="list_shuoshuo">
+            	<ul>
+                	<li><a href="#"><font size="-1">评论</font></a></li>
+                    <li><a href="#"><font size="-1">转发</font></a></li>
+                    <li><a href="#"><font size="-1">赞</font></a></li>
+                    <li><a href="#"><font size="-1">删除</font></a></li>
+                    <li><a href="#"><font size="-1">置顶</font></a></li>
+                </ul>
+            </div>
+		</div>
+    </div>
+    
+</div>
+
+
+<div id="tail">
+	<div id="list_tail">
+    	<ul>
+        	<li><a href="#" class="li2"><font size="-1">空间手机版</font></a></li>
+            <li><a href="#" class="li2"><font size="-1">黄钻贵族</font></a></li>
+            <li><a href="#" class="li2"><font size="-1">手机Qzone</font></a></li>
+            <li><a href="#" class="li2"><font size="-1">QQ互联</font></a></li>
+            <li><a href="#" class="li2"><font size="-1">认证服务</font></a></li>
+            <li><a href="#" class="li2"><font size="-1">腾讯博客</font></a></li>
+            <li><a href="#" class="li2"><font size="-1">腾讯客服</font></a></li>
+            <li><a href="#" class="li2"><font size="-1">QQ空间服务协议</font></a></li>
+            <li><a href="#" class="li2"><font size="-1">Complaint Guidelines</font></a></li>
+            <li><a href="#"><font size="-1">粤网文[2011]0483-070号</font></a></li>
+        </ul>
+    </div>
+    <div id="copyright_a">
+    	<font size="-1" color="#999999">Copyright © 2005 - 2015 Tencent.<a href="#">All Rights Reserved.</a></font>
+    </div>
+    <div id="copyright_b">
+    	<font size="-1" color="#999999">腾讯公司 <a href="#">版权所有</a></font>
+    </div>
+</div>
+</body>
+</html>
